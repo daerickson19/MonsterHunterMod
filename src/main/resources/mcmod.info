@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mhm",
+  "name": "Monster Hunter Mod",
+  "description": "This mod adds Monster Hunter monsters and items.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["daedad"],
+  "credits": "bedrockminer - for his great tutorial to get me started",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
