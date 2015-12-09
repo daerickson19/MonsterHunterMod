@@ -1,0 +1,6 @@
+{
+	"parent":"mhm:item/standard_item",
+	"textures": {
+		"layer0":"mhm:items/mhm_jaggi_scale"
+		}
+}

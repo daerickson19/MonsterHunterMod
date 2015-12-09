@@ -13,7 +13,7 @@ public class Main {
 	
 	public static final String MODID = "mhm";
 	public static final String MODNAME = "Monster Hunter Mod";
-	public static final String VERSION = "0.1";
+	public static final String VERSION = "0.2";
 
 	@Instance("Main")
 	public static Main instance;

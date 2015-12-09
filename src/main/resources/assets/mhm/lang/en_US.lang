@@ -3,3 +3,13 @@
 item.mhm_earth_crystal.name=Earth Crystal
 tile.mhm_earth_crystal_block.name=Earth Crystal Block
 tile.mhm_earth_crystal_ore.name=Earth Crystal Ore
+
+item.mhm_bird_wyvern_fang.name=Bird Wyvern Fang
+item.mhm_jaggi_hide.name=Jaggi Hide
+item.mhm_jaggi_scale.name=Jaggi Scale
+item.mhm_kelbi_horn.name=Kelbi Horn
+item.mhm_warm_pelt.name=Warm Pelt
+item.mhm_monster_bone_s.name=Monster Bone S
+item.mhm_mystery_bone.name=Mystery Bone
+tile.mhm_mystery_bone_block.name=Mystery Bone Block
+item.mhm_huskberry.name=Huskberry

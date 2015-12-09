@@ -11,8 +11,17 @@ import net.minecraft.item.Item;
 public class BlockRenderRegister {
 	
 	public static void registerBlockRenderer() {
+		
+		//User created blocks
 		reg(ModBlocks.mhmEarthCrystalBlock);
+		reg(ModBlocks.mhmMysteryBoneBlock);
+		
+		//Minable blocks
 		reg(ModBlocks.mhmEarthCrystalOre);
+		
+		//Plants
+		reg(ModBlocks.mhmHuskberryCrop);
+		
 	}
 	
 	public static String modid = Main.MODID;

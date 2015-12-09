@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "mhm:blocks/mhm_mystery_bone_block"
+	}	
+}

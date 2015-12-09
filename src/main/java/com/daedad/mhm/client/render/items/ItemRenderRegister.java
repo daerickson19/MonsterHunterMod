@@ -11,8 +11,21 @@ public class ItemRenderRegister {
 
 	public static void registerItemRenderer() {
 		
+		//Mining Items
 		reg(ModItems.mhmEarthCrystal);
 		
+		//MonsterDrops
+		reg(ModItems.mhmBirdWyvernFang);
+		reg(ModItems.mhmJaggiHide);
+		reg(ModItems.mhmJaggiScale);
+		reg(ModItems.mhmKelbiHorn);
+		reg(ModItems.mhmWarmPelt);
+		reg(ModItems.mhmMonsterBoneS);
+		reg(ModItems.mhmMysteryBone);
+		
+		//Plants
+		reg(ModItems.mhmHuskberry);
+	
 	}
 	
 	public static String modid = Main.MODID;

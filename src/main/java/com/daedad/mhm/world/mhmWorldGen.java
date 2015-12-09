@@ -18,6 +18,7 @@ public class mhmWorldGen implements IWorldGenerator{
 		switch (world.provider.getDimensionId()) {
 		case 0: //Overworld
 			this.runGenerator(this.gen_earth_crystal_ore, world, random, chunkX, chunkZ, 10, 0, 48);
+			this.runGenerator(this.gen_huskberry_crop, world, random, chunkX, chunkZ, 1, 0, 256);
 			break;
 		case -1: //Nether
 			break;
@@ -27,9 +28,11 @@ public class mhmWorldGen implements IWorldGenerator{
 	}
 	
 	private WorldGenerator gen_earth_crystal_ore; //Generates Earth Crystal Ore in the Overworld
+	private WorldGenerator gen_huskberry_crop; //Generates huskberry plants in the overworld?
 	
 	public mhmWorldGen() {
 		this.gen_earth_crystal_ore = new WorldGenMinable(ModBlocks.mhmEarthCrystalOre.getDefaultState(), 8);
+		this.gen_huskberry_crop = new WorldGenPlant(ModBlocks.mhmHuskberryCrop, 64);
 	}
 	
 	private void runGenerator(WorldGenerator generator, World world, Random rand, int chunk_X, int chunk_Z, int chancesToSpawn, int minHeight, int maxHeight) {

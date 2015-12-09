@@ -9,7 +9,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModCrafting {
 	
 	public static void initCrafting() {
+		//Earth Crystal Block
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.mhmEarthCrystalBlock), "aaa", "aaa", "aaa", 'a', ModItems.mhmEarthCrystal);
+		//Mystery Bone Block
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.mhmMysteryBoneBlock), "aaa", "aaa", "aaa", 'a', ModItems.mhmMysteryBone);	
 	}
 
 }
